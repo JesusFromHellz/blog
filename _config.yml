@@ -3,7 +3,7 @@ title:       Heaven
 email:       andersonp2p@hotmail.com
 author:      Jesus Santos
 description: "The house of Jesus"
-baseurl:     "/pixyll"
+baseurl:     "/blog"
 url:         "http://jesusfromhellz.github.io"
 date_format: "%b %-d, %Y"
 header_pages:
