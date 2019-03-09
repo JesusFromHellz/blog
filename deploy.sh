@@ -6,7 +6,9 @@
 set -e
 
 echo "Started deploying"
-
+git add -fA
+git commit --allow-empty -m "$(git log -1 --pretty=%B) [ci skip]"
+git push -f -q origin master
 # Checkout gh-pages branch.
 if [ `git branch | grep gh-pages` ]
 then
