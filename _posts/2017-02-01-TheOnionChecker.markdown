@@ -6,8 +6,6 @@ summary: Uma introdução à ferramenta para automação de checagem de links na
 categories: linux tool howto
 ---
 
-{% include image.html path="coverTheOnionChecker.jpg" path-detail="coverTheOnionChecker.jpg" %}
-
 Se você é um usuário "constante" da rede onion, está acostumado a encontrar diversos diretórios de links por lá, e acabar naquela dificuldade de ficar testando um por um, manualmente, não é? Pois bem, trago aqui algo que pode facilitar um pouco a sua navegação. 
 {: .justify}
 
