@@ -10,7 +10,7 @@ git add -fA
 git commit --allow-empty -m "$(git log -1 --pretty=%B)"
 git push -f -q origin master
 # Checkout gh-pages branch.
-if [ `git branch | grep gh-pages` ]
+if [[ `git branch | grep gh-pages` ]]
 then
   git branch -D gh-pages
 fi
