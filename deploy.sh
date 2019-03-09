@@ -7,7 +7,7 @@ set -e
 
 echo "Started deploying"
 git add -fA
-git commit --allow-empty -m "$(git log -1 --pretty=%B) [ci skip]"
+git commit --allow-empty -m "$(git log -1 --pretty=%B)"
 git push -f -q origin master
 # Checkout gh-pages branch.
 if [ `git branch | grep gh-pages` ]
@@ -27,7 +27,7 @@ rm -R _site/
 
 # Push to gh-pages.
 git add -fA
-git commit --allow-empty -m "$(git log -1 --pretty=%B) [ci skip]"
+git commit --allow-empty -m "$(git log -1 --pretty=%B)"
 git push -f -q origin gh-pages
 
 # Move back to previous branch.
