@@ -2,8 +2,8 @@
 layout: post
 title: Tor browser as a browser
 date: 2019-03-21 20:00
-summary: Esqueçamos a rede onion, hidden services e tudo mais. O que o Tor pode fazer, como um navegador comum?
-categories: deep web tor browser comparação
+summary: "Esqueçamos a rede onion, hidden services e tudo mais. O que o Tor pode fazer, como um navegador comum?"
+categories: deep-web tor browser comparacao
 ---
 
 Quando se trata de *Tor*, geralmente não se fazem distinções, *Tor* é único, *Tor* é o todo, mas nos enganamos ao pensar dessa forma.
