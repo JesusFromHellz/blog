@@ -4,7 +4,7 @@ email:       andersonp2p@hotmail.com
 author:      Jesus Santos
 description: "The house of Jesus"
 baseurl:     "/blog"
-url:         "http://jesusfromhellz.github.io"
+url:         "http://ajesus37.github.io"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
@@ -47,7 +47,7 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username: JesusFromHellz
+github_username: ajesus37
 reddit_username:
 bitbucket_username:
 stackoverflow_id:
