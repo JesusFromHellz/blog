@@ -1,21 +1,257 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    <title>Heaven</title>
+    <description>The house of Jesus</description>
+    <link>http://ajesus37.github.io/blog/</link>
+    <atom:link href="http://ajesus37.github.io/blog/feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+        <title>Podcasts - Because Old is cool.</title>
+        <description>&lt;p&gt;&lt;em&gt;&lt;img src=&quot;/images/mic-pic.jpg&quot; alt=&quot;&quot; /&gt;&lt;/em&gt;
+&lt;em&gt;&lt;img src=&quot;https://raw.githubusercontent.com/aJesus37/blog/gh-pages/images/mic-pic.jpg&quot; alt=&quot;&quot; /&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Créditos da imagem:
+&lt;a style=&quot;background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &amp;quot;San Francisco&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Ubuntu, Roboto, Noto, &amp;quot;Segoe UI&amp;quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px&quot; href=&quot;https://unsplash.com/@mattbotsford?utm_medium=referral&amp;amp;utm_campaign=photographer-credit&amp;amp;utm_content=creditBadge&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; title=&quot;Download free do whatever you want high-resolution photos from Matt Botsford&quot;&gt;&lt;span style=&quot;display:inline-block;padding:2px 3px&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; style=&quot;height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white&quot; viewBox=&quot;0 0 32 32&quot;&gt;&lt;title&gt;unsplash-logo&lt;/title&gt;&lt;path d=&quot;M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;&lt;span style=&quot;display:inline-block;padding:2px 3px&quot;&gt;Matt Botsford&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Se você nasceu depois dos anos 2000, as chances de você nunca ter ouvido falar sobre &lt;em&gt;podcasts&lt;/em&gt; é grande, e se ouviu falar, certamente nunca ouviu um.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mas afinal, o que é um podcast?&lt;/strong&gt; &lt;em&gt;Podcasts&lt;/em&gt; são como os atuais &lt;em&gt;vlogs&lt;/em&gt;, mas sem a parte visual, ou seja, são &lt;em&gt;talkshows&lt;/em&gt; totalmente em audio.&lt;/p&gt;
+
+&lt;p&gt;Sendo uma pessoa criada nos tempos atuais muito provavelmente te colocará na perspectiva de pessoas majoritariamente visuais, ou seja, os estímulos visuais te fazem sentir atraído por algo. Assim sendo, existem grandes chances de você não ter se interessado, à princípio, pela ideia de ouvir pessoas falando sem ver nada do que se passa, e isso que faz sentido, mas até o fim desse artigo você irá desistir dessa ideia.&lt;/p&gt;
+
+&lt;p&gt;Se você é da área de tecnologia, certamente já percebeu o quão valiosa é a língua inglesa dentro desse contexto, certo? Imagine então que você pode estudar não só o conteúdo que você regurlamente estuda, mas aprender inglês nesse processo. Maneiro, não?!&lt;/p&gt;
+
+&lt;p&gt;Sendo os &lt;em&gt;podcastas&lt;/em&gt; totalmente em audio, você é forçado a prestar mais atenção no que você ouve, então acaba entendendo melhor, ou entendendo o contexto do que é dito em meio a palavras novas, o que te deixa próximo de entender o real significado dessa palavra, além de te fazer exercitar seus ouvidos à comunicação nessa língua.
+Você não só pode, como deve agora, estar se perguntando: &lt;strong&gt;não posso fazer a mesma coisa de um jeito mais divertido usando séries, filmes e músicas?&lt;/strong&gt; Bem, de fato você pode, mas você muito provavelmente não irá prestar tanta atenção nas falas enquanto lê legendas, ou enquanto curte a batida daquela música que tanto gosta. O conteúdo de um &lt;em&gt;podcast&lt;/em&gt; está totalmente naquilo que se ouve, então se você não presta atenção o suficiente, você não entende. Ah! E depois de um tempo, você consegue ouvir os &lt;em&gt;podcasts&lt;/em&gt; enquanto faz outras tarefas, como trabalhar, então você aproveita muito bem o seu tempo, enquanto se força a ficar mais focado no que está fazendo, além de ouvir o podcast e aprender com ele.&lt;/p&gt;
+
+&lt;p&gt;Se você é de fora da área de tecnologia, talvez o conteúdo à partir daqui esteja fora do que você busca. Aí vai o &lt;em&gt;spoiler&lt;/em&gt;: uma lista com vários &lt;em&gt;podcasts&lt;/em&gt; sobre segurança da informação pra você ouvir! E sim, todos são em inglês, &lt;em&gt;only God knows&lt;/em&gt; o quão difícil é achar bons conteúdos dessa área na nossa língua, então fica a dica.&lt;/p&gt;
+
+&lt;h2 id=&quot;13-podcasts-de-segurança-da-informação-para-ouvir-e-aprender&quot;&gt;&lt;a name=&quot;list&quot;&gt;13 Podcasts de segurança da informação para ouvir e aprender&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Os 3 primeiros estão em ordem da &lt;strong&gt;minha&lt;/strong&gt; preferência, o restante fica a seu critério =)&lt;/p&gt;
+
+&lt;h3 id=&quot;1-malicious-life-by-cybereason&quot;&gt;1. &lt;a href=&quot;https://malicious.life/&quot;&gt;&lt;strong&gt;Malicious Life, by Cybereason&lt;/strong&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Se você gosta da história das coisas e gostaria de saber como grandes &lt;em&gt;hacks&lt;/em&gt;, casos famosos ou interessantes casos relacionados à segurança da informação ocorreram, esse é tranquilamente minha primeira recomendação. Com diversas informações completas e por vezes direto de suas fontes, com especialistas convidados, o apresentador traz o conteúdo de forma muito fluida, sendo simples até pra quem é de fora da área de tecnologia.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;2-darknet-diaries&quot;&gt;2. &lt;a href=&quot;https://darknetdiaries.com/&quot;&gt;&lt;strong&gt;Darknet Diaries&lt;/strong&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Muito semelhante ao &lt;em&gt;Malicious Life&lt;/em&gt;, porém com uma pegada mais técnica e que lembra muito uma série. O apresentador te insere muito bem nos acontecimentos e traz os casos de forma excitante, quase como se o que é citado não fosse real. Traz também citações reais das pessoas que participaram de alguns casos, bem como comentários de especialistas.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;3-naked-security-by-sophos&quot;&gt;3. &lt;a href=&quot;https://nakedsecurity.sophos.com/&quot;&gt;&lt;strong&gt;Naked Security, by Sophos&lt;/strong&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Novidades, comentários pertinentes e atualização sobre o cenário de &lt;em&gt;Cybersecurity&lt;/em&gt; e segurança em geral, esse seria o resumo rápido sobre esse &lt;em&gt;Podcast&lt;/em&gt;. Conta com uma equipe de profissionais que trazem diversos tópicos relevantes e fresquinhos, com análises de ótima qualidade e com fontes confiáveis. Quer estar sempre atualizado? Esse podcast é um &lt;em&gt;must&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;4-and-forward&quot;&gt;4 and forward…&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://danielmiessler.com&quot;&gt;&lt;strong&gt;Unsupervised Learning&lt;/strong&gt;&lt;/a&gt; - Compilado de conhecimento que um profissional de tecnologia traz em forma de audio. Conteúdo de qualidade não apenas sobre segurança, mas sobre tecnologia, pessoas, tendências, e o que mais caber ao gênero.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://risky.biz/&quot;&gt;&lt;strong&gt;Risky Business&lt;/strong&gt;&lt;/a&gt; - Semanalmente um tema é escolhido e uma &lt;em&gt;talk&lt;/em&gt; com especialistas acontece. Veja fatos relevantes e ponderações muito válidas de profissionais com muita experiência.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://defensivesecurity.org/&quot;&gt;&lt;strong&gt;Defensive Security Podcast&lt;/strong&gt;&lt;/a&gt; - &lt;em&gt;Podcast&lt;/em&gt; com foco em segurança defensiva, como brechas e estratégias para se defender.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://inteltechniques.com/podcast.html&quot;&gt;&lt;strong&gt;The Privacy, Security, &amp;amp; OSINT Show&lt;/strong&gt;&lt;/a&gt; - &lt;em&gt;Podcast&lt;/em&gt; sobre privacidade, segurança e técnicas de investigação online através de dados públicos.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://hackerpublicradio.org/&quot;&gt;&lt;strong&gt;Hacker Public Radio&lt;/strong&gt;&lt;/a&gt; - Grupo aberto de indivíduos que se interessam por segurança e querem fazer &lt;em&gt;podcasts&lt;/em&gt;. Muito conteúdo, nem sempre de qualidade sonora excepcional, mas que com certeza agrega muito se bem curado para os seus interesses.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.opensourcesecuritypodcast.com/&quot;&gt;&lt;strong&gt;Open Source Security Podcast&lt;/strong&gt;&lt;/a&gt; - É segurança, é &lt;em&gt;open source&lt;/em&gt;, com tópicos relevantes e atuais.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://isc.sans.edu/podcast.html&quot;&gt;&lt;strong&gt;SANS Stormcast&lt;/strong&gt;&lt;/a&gt; - &lt;em&gt;Podcast&lt;/em&gt; diário de curta duração, produzido todos os dias de semana, tem intuito de ser rápido e informativo quanto às mais recentes mudanças e novos conteúdos da área. (O inglês pode ser um pouco difícil de entender no início).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.owasp.org/index.php/OWASP_Podcast&quot;&gt;&lt;strong&gt;OWASP Podcast&lt;/strong&gt;&lt;/a&gt; - &lt;em&gt;DevSecOps&lt;/em&gt;? Quer estar por dentro do trabalho da galera que faz tantos projetos magníficos que é a OWASP? &lt;em&gt;Be my guest&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://thecyberwire.com/&quot;&gt;&lt;strong&gt;The Cyber Wire&lt;/strong&gt;&lt;/a&gt; - &lt;em&gt;Podcasts&lt;/em&gt; focados (20~25 minutos) que tratam de forma concisa e resumida tópicos diversos relativos às novidades da área de &lt;em&gt;cybersecurity&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.hak5.org/category/episodes/threatwire&quot;&gt;&lt;strong&gt;Threat Wire&lt;/strong&gt;&lt;/a&gt; - Um dos &lt;em&gt;podcasts&lt;/em&gt; de melhor qualidade que já vi. Infelizmente os episódios tem tamanhos muito grandes, então tive dificuldade de ouví-los, embora o funcionamento no &lt;em&gt;youtube&lt;/em&gt; seja fabuloso. (Se tiver sorte com ele, me deixe um &lt;em&gt;feeback&lt;/em&gt; aqui embaixo ;)).&lt;/p&gt;
+
+&lt;h2 id=&quot;como-ouvir&quot;&gt;Como ouvir?&lt;/h2&gt;
+
+&lt;p&gt;Existem por aí diversos aplicativos que tem como intuito servir como canal para que &lt;em&gt;podcasts&lt;/em&gt; sejam ouvidos, seguidos e outras funcionalidades, sejam alguns pagos ou não.
+Minha experiência chegou em 2 aplicativos, que funcionam tanto no Android como iOS (um deles), e são gratuitos!&lt;/p&gt;
+
+&lt;h3 id=&quot;1-radiopublic&quot;&gt;1. &lt;a href=&quot;https://radiopublic.com/&quot;&gt;&lt;strong&gt;RadioPublic&lt;/strong&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;O que uso atualmente. Traz ótimas funcionalidades de &lt;em&gt;download&lt;/em&gt; automático, uma &lt;em&gt;home&lt;/em&gt; prática e notificações de novos episódios dos &lt;em&gt;podcasts&lt;/em&gt; que sigo.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-podcast-addict&quot;&gt;2. &lt;strong&gt;Podcast Addict&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Grande quantidade de funcionalidades e maior quantidade de &lt;em&gt;podcasts&lt;/em&gt; nativos, suporta também vídeos. O que me faz usar o &lt;em&gt;RadioPublic&lt;/em&gt; no lugar dele é sua interface não tão bonita, que é compensada pela qualidade do seu funcionamento.
+Eles não possuem &lt;em&gt;site&lt;/em&gt; próprio, então aqui vai o link para &lt;em&gt;download&lt;/em&gt; &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.bambuna.podcastaddict&quot;&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/a&gt; (Esse não está disponível pra &lt;em&gt;iOS&lt;/em&gt; :( )&lt;/p&gt;
+
+&lt;h2 id=&quot;o-que-fazer-dentro-dos-apps&quot;&gt;O que fazer dentro dos apps?&lt;/h2&gt;
+
+&lt;p&gt;Para adicionar os &lt;em&gt;podcasts&lt;/em&gt;, basta clicar em adicionar &lt;em&gt;podcast&lt;/em&gt; através de &lt;em&gt;URL/RSS&lt;/em&gt;, ou colocar o &lt;em&gt;link&lt;/em&gt; do &lt;em&gt;feed&lt;/em&gt; na barra de pesquisa, depois ir à página do &lt;em&gt;podcast&lt;/em&gt; e marcar para seguir/inscrever-se.&lt;/p&gt;
+
+&lt;p&gt;Segue a lista dos &lt;em&gt;feeds&lt;/em&gt; para os &lt;em&gt;podcasts&lt;/em&gt; apresentados acima:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://malicious.life/feed/podcast/&quot;&gt;https://malicious.life/feed/podcast/&lt;/a&gt; - Malicious life&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://feeds.megaphone.fm/darknetdiaries&quot;&gt;https://feeds.megaphone.fm/darknetdiaries&lt;/a&gt; - Darknet Diaries&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://nakedsecurity.sophos.com/feed/&quot;&gt;https://nakedsecurity.sophos.com/feed/&lt;/a&gt; - Naked Security&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://omny.fm/shows/unsupervised-learning/playlists/podcast.rss&quot;&gt;https://omny.fm/shows/unsupervised-learning/playlists/podcast.rss&lt;/a&gt; - Unsupervised Learning&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://risky.biz/feeds/risky-business/&quot;&gt;https://risky.biz/feeds/risky-business/&lt;/a&gt; - Risky Business&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://defensivesecurity.org/feed/podcast&quot;&gt;https://defensivesecurity.org/feed/podcast&lt;/a&gt; - Defensive Security Podcast&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://feeds.soundcloud.com/users/soundcloud:users:261098918/sounds.rss&quot;&gt;http://feeds.soundcloud.com/users/soundcloud:users:261098918/sounds.rss&lt;/a&gt; - The Privacy, Security, &amp;amp; OSINT Show&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://hackerpublicradio.org/hpr_ogg_rss.php&quot;&gt;http://hackerpublicradio.org/hpr_ogg_rss.php&lt;/a&gt; - Hacker Public Radio&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://opensourcesecuritypodcast.libsyn.com/rss&quot;&gt;https://opensourcesecuritypodcast.libsyn.com/rss&lt;/a&gt; - Open Source Security Podcast&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://isc.sans.edu/dailypodcast.xml&quot;&gt;https://isc.sans.edu/dailypodcast.xml&lt;/a&gt; - SANS StormCast&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://feeds.soundcloud.com/users/soundcloud:users:63303345/sounds.rss&quot;&gt;http://feeds.soundcloud.com/users/soundcloud:users:63303345/sounds.rss&lt;/a&gt; - OWASP Podcast&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://thecyberwire.libsyn.com/rss&quot;&gt;http://thecyberwire.libsyn.com/rss&lt;/a&gt; - The Cyber Wire&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://feed.podbean.com/shannonmorse/feed.xml&quot;&gt;https://feed.podbean.com/shannonmorse/feed.xml&lt;/a&gt; - Threat Wire&lt;/p&gt;
+
+&lt;h3 id=&quot;tem-dúvidas-dicas-ou-outros-podcasts-pra-essa-lista-comenta-aqui-embaixo-&quot;&gt;Tem dúvidas, dicas ou outros podcasts pra essa lista? Comenta aqui embaixo =)&lt;/h3&gt;
+</description>
+        <pubDate>Mon, 19 Aug 2019 21:15:00 -0300</pubDate>
+        <link>http://ajesus37.github.io/blog/2019/08/19/Podcasts/</link>
+        <guid isPermaLink="true">http://ajesus37.github.io/blog/2019/08/19/Podcasts/</guid>
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Tor browser as a browser</title>
+        <description>&lt;p&gt;Quando se trata de &lt;em&gt;Tor&lt;/em&gt;, geralmente não se fazem distinções, &lt;em&gt;Tor&lt;/em&gt; é único, &lt;em&gt;Tor&lt;/em&gt; é o todo, mas nos enganamos ao pensar dessa forma.
+O &lt;em&gt;Tor&lt;/em&gt;, falando de forma pura e simples, é um composto de duas partes. O &lt;em&gt;Tor&lt;/em&gt; &lt;em&gt;&lt;strong&gt;Browser&lt;/strong&gt;&lt;/em&gt;, e o &lt;em&gt;Tor &lt;strong&gt;Network&lt;/strong&gt;&lt;/em&gt;. Os nomes são um tanto auto-explicativos, mas trata-se do &lt;strong&gt;navegador&lt;/strong&gt;, a interface gráfica e meio entre o usuário e a &lt;strong&gt;rede&lt;/strong&gt;, que é onde a magia dos &lt;em&gt;hidden services&lt;/em&gt; e conceitos mais complexos da segurança do &lt;em&gt;Tor&lt;/em&gt; se aplicam.&lt;/p&gt;
+
+&lt;p&gt;Nesse artigo tratarei exclusivamente daquilo que cobre o navegador, ou seja, não irei abordar aspectos técnicos da rede, que na maioria massiva dos casos, está diretamente atrelada.&lt;/p&gt;
+
+&lt;h2 id=&quot;ignorando-a-rede-o-tor-browser-é-apenas-um-firefox-comum&quot;&gt;Ignorando a rede, o &lt;em&gt;Tor Browser&lt;/em&gt; é apenas um Firefox comum?&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;De forma alguma&lt;/strong&gt;. Essa afirmação está muito longe de estar correta.
+O &lt;em&gt;Tor Browser&lt;/em&gt; é uma implementação &lt;strong&gt;customizada&lt;/strong&gt; do &lt;a href=&quot;https://www.mozilla.org/firefox/new/&quot;&gt;Firefox&lt;sup&gt;[1]&lt;/sup&gt;&lt;/a&gt;. O Firefox, por sua vez é um navegador de código aberto, que preza pela privacidade de seus usuários, o que o faz a melhor escolha para os fins do &lt;em&gt;Tor&lt;/em&gt;.
+Acima dele, são implementadas não somente customizações, como também configurações específicas. O Projeto &lt;em&gt;Tor&lt;/em&gt; leva muito mais a sério a privacidade e segurança do que o Firefox, afinal esse é o intuito do projeto, dessa forma, traz configurações que não trazem melhor navegabilidade ou uma melhor experiência de usuário, mas traz aquilo que se propõe: &lt;strong&gt;privacidade e segurança&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Dentre as alterações contidas nas &lt;a href=&quot;https://gitweb.torproject.org/tor-browser.git/tree/browser/app/profile/000-tor-browser.js?h=tor-browser-52.5.2esr-7.0-2&quot;&gt;configurações&lt;sup&gt;[2]&lt;/sup&gt;&lt;/a&gt;, podemos citar o bloqueio à escrita de histórico, isolamento de &lt;em&gt;downloads&lt;/em&gt;, o não &lt;em&gt;cache&lt;/em&gt; de informações como &lt;em&gt;logins&lt;/em&gt; e informações em formulários, bem como configurações padrão de segurança, como testes de &lt;em&gt;malware&lt;/em&gt;, &lt;em&gt;phishing&lt;/em&gt; e afins. As configurações também não são sincronizadas, para que nada da sua navegação seja salva na nuvem. Define também várias configurações &lt;em&gt;‘default’&lt;/em&gt; de &lt;em&gt;fingerprinting&lt;/em&gt;, para que o computador/&lt;em&gt;hardware&lt;/em&gt; do usuário não possa ser identificado, além de bloquear conteúdo de terceiros e definir os &lt;em&gt;proxies&lt;/em&gt; para a própria rede, dentre outras informações, como correções de &lt;em&gt;bugs&lt;/em&gt; que poderiam afetar a segurança de alguma forma.&lt;/p&gt;
+
+&lt;p&gt;Ele vem com o &lt;a href=&quot;https://gitweb.torproject.org/torbutton.git/&quot;&gt;&lt;em&gt;TorButton&lt;/em&gt;&lt;sup&gt;[3]&lt;/sup&gt;&lt;/a&gt;, que garante que as requisições de &lt;em&gt;DNS&lt;/em&gt; são de fato enviadas para a rede &lt;em&gt;Tor&lt;/em&gt; (caso você pense em usar a rede num navegador qualquer, saiba que corre o risco de sofrer &lt;a href=&quot;https://en.wikipedia.org/wiki/DNS_leak&quot;&gt;&lt;em&gt;DNS Leak&lt;/em&gt;&lt;sup&gt;[4]&lt;/sup&gt;&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;O navegador vem por padrão com as extensões &lt;a href=&quot;https://www.eff.org/https-everywhere&quot;&gt;&lt;em&gt;HTTPS-Everywhere&lt;/em&gt;&lt;sup&gt;[5]&lt;/sup&gt;&lt;/a&gt;, bem como o &lt;a href=&quot;https://noscript.net/&quot;&gt;&lt;em&gt;NoScript&lt;/em&gt;&lt;sup&gt;[6]&lt;/sup&gt;&lt;/a&gt;. O primeiro garante que a grande maioria das requisições trafegue criptografada (tratando dentro da rede &lt;em&gt;Tor&lt;/em&gt;, isso previne que nós de saída espiem o tráfego que passa por elas). Já o segundo, garante que por padrão, nenhum &lt;em&gt;script&lt;/em&gt; seja executado, a menos que a &lt;em&gt;URL&lt;/em&gt; seja definida numa &lt;em&gt;whitelist&lt;/em&gt; para tal. Além disso, mais que apenas vir com elas instaladas, elas são otimizadas para maximização da segurança e privacidade do usuário (o que por vezes, diminui ou acaba com a usabilidade, especialmente tratando-se do &lt;em&gt;NoScript&lt;/em&gt;).&lt;/p&gt;
+
+&lt;p&gt;O navegador também traz consigo requisitos de segurança e privacidade, como seguem:&lt;/p&gt;
+
+&lt;h3 id=&quot;segurança&quot;&gt;Segurança&lt;/h3&gt;
+
+&lt;p&gt;Os requisitos de segurança são à princípio ligados à garantia de segurança do &lt;em&gt;Tor&lt;/em&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.torproject.org/projects/torbrowser/design/#proxy-obedience&quot;&gt;&lt;strong&gt;Obediência ao Proxy:&lt;/strong&gt;&lt;sup&gt;[7]&lt;/sup&gt;&lt;/a&gt; O navegador não deve sobrepor o &lt;em&gt;proxy&lt;/em&gt; do &lt;em&gt;Tor&lt;/em&gt; para conteúdo algum.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.torproject.org/projects/torbrowser/design/#state-separation&quot;&gt;&lt;strong&gt;Separação de estado:&lt;/strong&gt;&lt;sup&gt;[8]&lt;/sup&gt;&lt;/a&gt; O navegador não deve prover conteúdo que venha de nenhum outro navegador, ou de um modo de navegação que não o do próprio &lt;em&gt;Tor&lt;/em&gt;. Isso inclui &lt;em&gt;plugins&lt;/em&gt; independentes e estado compartilhado de implementações de sistema operacional do &lt;em&gt;TLS&lt;/em&gt; e outras bibliotecas de suporte.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.torproject.org/projects/torbrowser/design/#disk-avoidance&quot;&gt;&lt;strong&gt;Evitar o disco:&lt;/strong&gt;&lt;sup&gt;[9]&lt;/sup&gt;&lt;/a&gt; O navegador não deve escrever nenhuma informação que seja proveniente de, ou revele os dados de navegação para o disco, ou guardar em memória por tempo superior ao de navegação, a menos que o usuário explicitamente o tenha definido para tal.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.torproject.org/projects/torbrowser/design/#app-data-isolation&quot;&gt;&lt;strong&gt;Isolamento de dados de aplicação:&lt;/strong&gt;&lt;sup&gt;[10]&lt;/sup&gt;&lt;/a&gt; Os componentes envolvidos em prover a navegação privada devem ser auto-contidos, ou devem prover um mecanismo para a rápida e completa remoção de evidências do modo de uso. Em outras palavras, o navegador não deve escrever ou fazer o sistema operacional escrever &lt;strong&gt;qualquer informação&lt;/strong&gt; da navegação para o disco fora do controle da aplicação.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;privacidade&quot;&gt;Privacidade&lt;/h3&gt;
+
+&lt;p&gt;Os requisitos de privacidade estão ligados com a redução da “habilidade de &lt;em&gt;linkagem&lt;/em&gt;”: A habilidade de de conectar a atividade de um usuário em um &lt;em&gt;site&lt;/em&gt;, em outro &lt;em&gt;site&lt;/em&gt; sem seu conhecimento ou consentimento explícito.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.torproject.org/projects/torbrowser/design/#identifier-linkability&quot;&gt;&lt;strong&gt;Inviabilidade de conexão entre origens cruzadas:&lt;/strong&gt;&lt;sup&gt;[11]&lt;/sup&gt;&lt;/a&gt; As atividades em uma &lt;em&gt;URL&lt;/em&gt; não devem poder ser conectadas às atividades em uma outra &lt;em&gt;URL&lt;/em&gt; por nenhuma ferramenta automatizada de terceiros ou sem a interação ou aprovação do usuário. Essa conectividade é especifica para os casos de identificadores armazenados, &lt;em&gt;tokens&lt;/em&gt; de autenticação e estado compartilhado.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.torproject.org/projects/torbrowser/design/#fingerprinting-linkability&quot;&gt;&lt;strong&gt;Inviabilidade de fingerprinting de origens cruzadas:&lt;/strong&gt;&lt;sup&gt;[12]&lt;/sup&gt;&lt;/a&gt; Exatamente como o primeiro ponto, mas especificamente para atributos de &lt;em&gt;fingerprinting&lt;/em&gt; das ações do navegador.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.torproject.org/projects/torbrowser/design/#new-identity&quot;&gt;&lt;strong&gt;Inviabilidade de conexões de longo período:&lt;/strong&gt;&lt;sup&gt;[13]&lt;/sup&gt;&lt;/a&gt; O navegador deve trazer uma forma óbvia e fácil para o usuário de remover todos os seus &lt;em&gt;tokens&lt;/em&gt; de navegação e estado do navegador para obter uma nova identidade. Adicionalmente, o navegador deve limpar qualquer estado que viabilize conexão de comportamento por padrão, automaticamente ao reiniciar o navegador, a menos que o usuário opte pelo contrário.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;o-fim-talvez&quot;&gt;O Fim? Talvez.&lt;/h2&gt;
+
+&lt;p&gt;Falar de segurança e privacidade é um tanto complexo, visto que é um tema muito amplo de delicado, sem citar complexo. Por esse motivo, não irei tratar de &lt;strong&gt;todos&lt;/strong&gt; os pontos desse navegador, mas deixo &lt;a href=&quot;https://www.torproject.org/projects/torbrowser/design/&quot;&gt;aqui&lt;sup&gt;[14]&lt;/sup&gt;&lt;/a&gt; o link para a documentação do &lt;em&gt;Tor&lt;/em&gt;, que me serviu de base para esse artigo. Sinta-se livre para aprofundar-se no assunto, ou tirar dúvidas na seção de comentários abaixo.&lt;/p&gt;
+
+&lt;p&gt;Quem sabe em breve não surja uma parte dois para esse conteúdo, não é mesmo?
+Até a próxima. ;)&lt;/p&gt;
+
+&lt;h2 id=&quot;bibliografia&quot;&gt;Bibliografia&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.mozilla.org/firefox/new/&quot;&gt;[1]https://www.mozilla.org/firefox/new/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://gitweb.torproject.org/tor-browser.git/tree/browser/app/profile/000-tor-browser.js?h=tor-browser-52.5.2esr-7.0-2&quot;&gt;[2]https://gitweb.torproject.org/tor-browser.git/tree/browser/app/profile/000-tor-browser.js?h=tor-browser-52.5.2esr-7.0-2&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://gitweb.torproject.org/torbutton.git/&quot;&gt;[3]https://gitweb.torproject.org/torbutton.git/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/DNS_leak&quot;&gt;[4]https://en.wikipedia.org/wiki/DNS_leak&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.eff.org/https-everywhere&quot;&gt;[5]https://www.eff.org/https-everywhere&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://noscript.net/&quot;&gt;[6]https://noscript.net/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.torproject.org/projects/torbrowser/design/#proxy-obedience&quot;&gt;[7]https://www.torproject.org/projects/torbrowser/design/#proxy-obedience&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.torproject.org/projects/torbrowser/design/#state-separation&quot;&gt;[8]https://www.torproject.org/projects/torbrowser/design/#state-separation&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.torproject.org/projects/torbrowser/design/#disk-avoidance&quot;&gt;[9]https://www.torproject.org/projects/torbrowser/design/#disk-avoidance&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.torproject.org/projects/torbrowser/design/#app-data-isolation&quot;&gt;[10]https://www.torproject.org/projects/torbrowser/design/#app-data-isolation&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.torproject.org/projects/torbrowser/design/#identifier-linkability&quot;&gt;[11]https://www.torproject.org/projects/torbrowser/design/#identifier-linkability&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.torproject.org/projects/torbrowser/design/#fingerprinting-linkability&quot;&gt;[12]https://www.torproject.org/projects/torbrowser/design/#fingerprinting-linkability&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.torproject.org/projects/torbrowser/design/#new-identity&quot;&gt;[13]https://www.torproject.org/projects/torbrowser/design/#new-identity&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.torproject.org/projects/torbrowser/design/&quot;&gt;[14]https://www.torproject.org/projects/torbrowser/design/&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 21 Mar 2019 20:00:00 -0300</pubDate>
+        <link>http://ajesus37.github.io/blog/2019/03/21/tor-browser-as-a-browser/</link>
+        <guid isPermaLink="true">http://ajesus37.github.io/blog/2019/03/21/tor-browser-as-a-browser/</guid>
+      </item>
+    
+      <item>
+        <title>The Onion Checker</title>
+        <description>&lt;p class=&quot;justify&quot;&gt;Se você é um usuário “constante” da rede onion, está acostumado a encontrar diversos diretórios de links por lá, e acabar naquela dificuldade de ficar testando um por um, manualmente, não é? Pois bem, trago aqui algo que pode facilitar um pouco a sua navegação.&lt;/p&gt;
+
+&lt;p class=&quot;justify&quot;&gt;Venho apresentar a ferramenta &lt;a href=&quot;https://github.com/JesusFromHellz/Onion-Checker&quot;&gt;&lt;strong&gt;Onion Checker&lt;/strong&gt;&lt;/a&gt;, desenvolvida por mim.&lt;/p&gt;
+
+&lt;p class=&quot;justify&quot;&gt;O intuito dessa ferramenta é organizar links referentes à rede onion, bem como testar se os mesmos estão online, e caso positivo, adicionar o título existente no site, bem como o link, num txt.&lt;/p&gt;
+
+&lt;p&gt;A utilização base do programa é bem simples, sendo exatamente:&lt;/p&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;onion-checker &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt; ListaDeLinks.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p class=&quot;justify&quot;&gt;Ou ainda utilizando um arquivo de destino para os links online. Caso seja omitido, os links online irão para a &lt;code class=&quot;highlighter-rouge&quot;&gt;$HOME&lt;/code&gt; do usuário, no arquivo &lt;em&gt;linkson.txt&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p class=&quot;justify&quot;&gt;Uma interessante funcionalidade é a de permitir ao usuário escolher o tempo de timeout para a checagem dos links, para que os mesmos sejam dados como offline, em &lt;em&gt;segundos&lt;/em&gt;, &lt;em&gt;minutos&lt;/em&gt;, &lt;em&gt;horas&lt;/em&gt; e até &lt;em&gt;dias&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/Swa1aRf.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;justify&quot;&gt;Dentre as outras funcionalidades do programa, pode-se salientar a de organização de links. Esse comando pega &lt;strong&gt;N&lt;/strong&gt; arquivos de texto contendo links passados para o programa, e os filtra, passando apenas os links, linha por linha, para outro arquivo ou para serem imprimidos na tela. O uso dessa função é:&lt;/p&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;onion-checker &lt;span class=&quot;nt&quot;&gt;-l&lt;/span&gt; Arquivo1.txt Arquivo2.txt Arquivo3.txt ArquivoDestino.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p class=&quot;justify&quot;&gt;O último nome passado será sempre o arquivo destino, e caso o último seja &lt;code class=&quot;highlighter-rouge&quot;&gt;-st&lt;/code&gt;, o conteúdo será exibido na tela.&lt;/p&gt;
+
+&lt;p class=&quot;justify&quot;&gt;Outra função mais simples apenas une arquivos diferentes uns nos outros, sob a flag &lt;code class=&quot;highlighter-rouge&quot;&gt;-j&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p class=&quot;justify&quot;&gt;Abaixo você pode ver a mensagem completa de ajuda contento todos os comandos que o programa aceita, e para mais ajuda, use um deles sem flag alguma.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/22LA8f2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 01 Feb 2017 12:00:00 -0200</pubDate>
+        <link>http://ajesus37.github.io/blog/2017/02/01/TheOnionChecker/</link>
+        <guid isPermaLink="true">http://ajesus37.github.io/blog/2017/02/01/TheOnionChecker/</guid>
+      </item>
+    
   </channel>
 </rss>

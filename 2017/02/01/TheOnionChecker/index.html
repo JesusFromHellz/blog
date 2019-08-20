@@ -4,18 +4,18 @@
     
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Heaven</title>
+    <title>The Onion Checker &#8211; Heaven</title>
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
     <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="The house of Jesus">
+    <meta name="description" content="Uma introdução à ferramenta para automação de checagem de links na Deep Web.">
     <meta name="robots" content="all">
     <meta name="author" content="Jesus Santos">
     
-    
-    <link rel="canonical" href="http://ajesus37.github.io/blog/">
+    <meta name="keywords" content="linux, tool, howto">
+    <link rel="canonical" href="http://ajesus37.github.io/blog/2017/02/01/TheOnionChecker/">
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for Heaven" href="/blog/feed.xml" />
 
     <!-- Custom CSS -->
@@ -41,9 +41,9 @@
     <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
     <meta property="og:locale" content="pt_BR">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Heaven">
+    <meta property="og:title" content="The Onion Checker">
     <meta property="og:description" content="The house of Jesus">
-    <meta property="og:url" content="http://ajesus37.github.io/">
+    <meta property="og:url" content="http://ajesus37.github.io/2017/02/01/TheOnionChecker/">
     <meta property="og:site_name" content="Heaven">
     
     <meta property="og:image" content="http://ajesus37.github.io/images/me.jpeg">
@@ -55,9 +55,9 @@
         <meta name="twitter:site" content="@JesusFromHellz" />
         <meta name="twitter:creator" content="@JesusFromHellz" />
     
-    <meta name="twitter:title" content="Heaven" />
-    <meta name="twitter:description" content="The house of Jesus" />
-    <meta name="twitter:url" content="http://ajesus37.github.io/" />
+    <meta name="twitter:title" content="The Onion Checker" />
+    <meta name="twitter:description" content="Uma introdução à ferramenta para automação de checagem de links na Deep Web." />
+    <meta name="twitter:url" content="http://ajesus37.github.io/2017/02/01/TheOnionChecker/" />
     
     <meta name="twitter:image" content="http://ajesus37.github.io/images/me.jpeg" />
     
@@ -171,58 +171,108 @@
       <div class="measure">
         
 
-<div class="home">
+
+<div class="post-header mb2">
+  <h1>The Onion Checker</h1>
+  <span class="post-meta">Feb 1, 2017</span><br>
   
-    <div class="posts">
-      
-        <div class="post py3">
-          <p class="post-meta">
-	    
-	      Aug 19, 2019
-	    
-	  </p>
-          <a href="/blog/2019/08/19/Podcasts/" class="post-link"><h3 class="h1 post-title">Podcasts - Because Old is cool.</h3></a>
-          <span class="post-summary">
-            
-              Introdução e breve listagem de podcasts sobre segurança da informação
-            
-          </span>
-        </div>
-      
-        <div class="post py3">
-          <p class="post-meta">
-	    
-	      Mar 21, 2019
-	    
-	  </p>
-          <a href="/blog/2019/03/21/tor-browser-as-a-browser/" class="post-link"><h3 class="h1 post-title">Tor browser as a browser</h3></a>
-          <span class="post-summary">
-            
-              Esqueçamos a rede onion, hidden services e tudo mais. O que o Tor pode fazer, como um navegador comum?
-            
-          </span>
-        </div>
-      
-        <div class="post py3">
-          <p class="post-meta">
-	    
-	      Feb 1, 2017
-	    
-	  </p>
-          <a href="/blog/2017/02/01/TheOnionChecker/" class="post-link"><h3 class="h1 post-title">The Onion Checker</h3></a>
-          <span class="post-summary">
-            
-              Uma introdução à ferramenta para automação de checagem de links na Deep Web.
-            
-          </span>
-        </div>
-      
-    </div>
+  <span class="post-meta small">
+  
+    1 minute read
+  
+  </span>
+</div>
+
+<article class="post-content">
+  <p class="justify">Se você é um usuário “constante” da rede onion, está acostumado a encontrar diversos diretórios de links por lá, e acabar naquela dificuldade de ficar testando um por um, manualmente, não é? Pois bem, trago aqui algo que pode facilitar um pouco a sua navegação.</p>
+
+<p class="justify">Venho apresentar a ferramenta <a href="https://github.com/JesusFromHellz/Onion-Checker"><strong>Onion Checker</strong></a>, desenvolvida por mim.</p>
+
+<p class="justify">O intuito dessa ferramenta é organizar links referentes à rede onion, bem como testar se os mesmos estão online, e caso positivo, adicionar o título existente no site, bem como o link, num txt.</p>
+
+<p>A utilização base do programa é bem simples, sendo exatamente:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>onion-checker <span class="nt">-c</span> ListaDeLinks.txt
+</code></pre></div></div>
+
+<p class="justify">Ou ainda utilizando um arquivo de destino para os links online. Caso seja omitido, os links online irão para a <code class="highlighter-rouge">$HOME</code> do usuário, no arquivo <em>linkson.txt</em>.</p>
+
+<p class="justify">Uma interessante funcionalidade é a de permitir ao usuário escolher o tempo de timeout para a checagem dos links, para que os mesmos sejam dados como offline, em <em>segundos</em>, <em>minutos</em>, <em>horas</em> e até <em>dias</em>.</p>
+
+<p><img src="https://i.imgur.com/Swa1aRf.png" alt="" /></p>
+
+<p class="justify">Dentre as outras funcionalidades do programa, pode-se salientar a de organização de links. Esse comando pega <strong>N</strong> arquivos de texto contendo links passados para o programa, e os filtra, passando apenas os links, linha por linha, para outro arquivo ou para serem imprimidos na tela. O uso dessa função é:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>onion-checker <span class="nt">-l</span> Arquivo1.txt Arquivo2.txt Arquivo3.txt ArquivoDestino.txt
+</code></pre></div></div>
+
+<p class="justify">O último nome passado será sempre o arquivo destino, e caso o último seja <code class="highlighter-rouge">-st</code>, o conteúdo será exibido na tela.</p>
+
+<p class="justify">Outra função mais simples apenas une arquivos diferentes uns nos outros, sob a flag <code class="highlighter-rouge">-j</code>.</p>
+
+<p class="justify">Abaixo você pode ver a mensagem completa de ajuda contento todos os comandos que o programa aceita, e para mais ajuda, use um deles sem flag alguma.</p>
+
+<p><img src="https://i.imgur.com/22LA8f2.png" alt="" /></p>
+
+
+</article>
+
+
+  <div class="share-page">
+  Compartilhe esse artigo!
+
+  <div class="share-links">
+    
+      <a class="fa fa-facebook" href="https://facebook.com/sharer.php?u=http%3A%2F%2Fajesus37.github.io%2F2017%2F02%2F01%2FTheOnionChecker%2F" rel="nofollow" target="_blank" title="Share on Facebook"></a>
+    
+
+    
+      <a class="fa fa-twitter" href="https://twitter.com/intent/tweet?text=The+Onion+Checker&amp;url=http%3A%2F%2Fajesus37.github.io%2F2017%2F02%2F01%2FTheOnionChecker%2F" rel="nofollow" target="_blank" title="Share on Twitter"></a>
+    
 
     
 
-  
+    
+      <a class="fa fa-linkedin" href="http://www.linkedin.com/shareArticle?url=http%3A%2F%2Fajesus37.github.io%2F2017%2F02%2F01%2FTheOnionChecker%2F&amp;title=The+Onion+Checker" rel="nofollow" target="_blank" title="Share on LinkedIn"></a>
+    
+
+    
+
+    
+
+    
+      <a class="fa fa-reddit" href="http://reddit.com/submit?url=http%3A%2F%2Fajesus37.github.io%2F2017%2F02%2F01%2FTheOnionChecker%2F&amp;title=The+Onion+Checker" rel="nofollow" target="_blank" title="Share on Reddit"></a>
+    
+
+    
+
+    
+  </div>
 </div>
+
+
+
+
+
+
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_shortname  = 'JesusFromHellz';
+    var disqus_identifier = '/2017/02/01/TheOnionChecker';
+    var disqus_title      = "The Onion Checker";
+
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+
 
       </div>
     </div>
